@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string name="app_name">Wi-fi СЕРВИС</string>
+<string name="action_settings">Настройки</string>
+<string name="eng">Английский</string>
+<string name="rus">Русский</string>
+    <string name="btn_en">Английский</string>
+    <string name="btn_ru">Русский</string>
+</resources>

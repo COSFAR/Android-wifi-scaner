@@ -2,9 +2,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.cosfar.myapplication.MainActivity">
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="@string/action_settings">
+        <menu>
+        <group>
+            <item
+                android:id="@+id/save"
+                android:title="сохранить"/>
+
+            <item
+                android:id="@+id/check"
+                android:title="проверить"/>
+            <item
+                android:id="@+id/del"
+                android:title="удалить"/>
+        </group>
+        </menu>
+    </item>
+
+
 </menu>

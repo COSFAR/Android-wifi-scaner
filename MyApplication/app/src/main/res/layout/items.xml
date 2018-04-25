@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Тип защиты" />
+            android:text="mac адрес" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
             tools:text="Имя сети" />
 
         <TextView
-            android:id="@+id/tvSecurity"
+            android:id="@+id/tvAddress"
             android:maxLength="24"
             android:layout_gravity="end"
             android:layout_width="wrap_content"

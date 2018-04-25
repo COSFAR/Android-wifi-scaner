@@ -12,7 +12,7 @@ public class Element {
     /**
      * тип защиты
      */
-    private String security;
+    private String address;
     /**
      * уровень сигнала
      */
@@ -21,12 +21,12 @@ public class Element {
     /**
      * конструктор
      * @param title имя сети
-     * @param security тип защиты
+     * @param address тип защиты
      * @param level уровень сигнала
      */
-    public Element(String title, String security, String level) {
+    public Element(String title, String address, String level) {
         this.title = title;
-        this.security = security;
+        this.address = address;
         this.level = level;
     }
 
@@ -42,8 +42,8 @@ public class Element {
      * получить тип защиты
      * @return тип защиты
      */
-    public String getSecurity() {
-        return security;
+    public String getAddress() {
+        return address;
     }
 
     /**
